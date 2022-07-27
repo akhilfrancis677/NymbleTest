@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3255633759</fileChecksum>
+    <configuration>
+        <name>nrf52832_xxaa</name>
+        <outputs>
+            <file>$PROJ_DIR$\_build\NymbleTest.map</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\delay\nrf_delay.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic_fifo\nrf_atfifo_internal.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\experimental_section_vars\nrf_section.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log_backend_interface.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic\nrf_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_power.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\sdk_os.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\src\nrf_log_internal.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log_types.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\balloc\nrf_balloc.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\timer\drv_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log_instance.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\mutex\nrf_mtx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\pwr_mgmt\nrf_pwr_mgmt.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\sdk_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\src\nrf_log_ctrl_internal.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\memobj\nrf_memobj.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log_ctrl.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\nrfx_log.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic\nrf_atomic_internal.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\strerror\nrf_strerror.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\prs\nrfx_prs.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_clock.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\sdk_common.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_atomic_internal.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\toolchain\cmsis\include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf_format.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\include\nrfx_power_clock.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\compiler_abstraction.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\fifo\app_fifo.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\toolchain\cmsis\include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic_fifo\nrf_atfifo.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_clock.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_util_platform.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\sortlist\nrf_sortlist.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\toolchain\cmsis\include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\include\nrfx_clock.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\timer\app_timer.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf52.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic_fifo\nrf_atfifo.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf_format.c</file>
+            <file>$PROJ_DIR$\_build\app_util_platform.o</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\experimental_section_vars\nrf_section_iter.c</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf_format.o</file>
+            <file>$PROJ_DIR$\_build\nrf_log_frontend.o</file>
+            <file>$PROJ_DIR$\_build\app_fifo.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</file>
+            <file>$PROJ_DIR$\_build\NymbleTest.out</file>
+            <file>$PROJ_DIR$\_build\nrf_pwr_mgmt.o</file>
+            <file>$PROJ_DIR$\_build\app_timer2.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_util_platform.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\balloc\nrf_balloc.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\sortlist\nrf_sortlist.c</file>
+            <file>$PROJ_DIR$\_build\system_nrf52.xcl</file>
+            <file>$PROJ_DIR$\_build\system_nrf52.o</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\src\nrf_log_frontend.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\uart\app_uart_fifo.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\atomic\nrf_atomic.c</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_clock.xcl</file>
+            <file>$PROJ_DIR$\_build\main.o</file>
+            <file>$PROJ_DIR$\_build\Nymble_Sm.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\timer\drv_rtc.c</file>
+            <file>$PROJ_DIR$\_build\nrfx_uarte.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_sortlist.o</file>
+            <file>$PROJ_DIR$\_build\nrf_log_frontend.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\memobj\nrf_memobj.c</file>
+            <file>$PROJ_DIR$\_build\drv_rtc.o</file>
+            <file>$PROJ_DIR$\_build\Nymble_Uart.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\timer\app_timer2.c</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_clock.o</file>
+            <file>$PROJ_DIR$\_build\app_timer2.o</file>
+            <file>$PROJ_DIR$\_build\Nymble_Sm.o</file>
+            <file>$PROJ_DIR$\_build\app_error_weak.o</file>
+            <file>$PROJ_DIR$\_build\nrf_memobj.xcl</file>
+            <file>$PROJ_DIR$\_build\Nymble_Uart.o</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf_format.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_uart.o</file>
+            <file>$PROJ_DIR$\_build\nrf_sortlist.xcl</file>
+            <file>$PROJ_DIR$\_build\app_error_handler_iar.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_section_iter.o</file>
+            <file>$PROJ_DIR$\_build\Nymble_Msg.o</file>
+            <file>$PROJ_DIR$\_build\iar_startup_nrf52.o</file>
+            <file>$PROJ_DIR$\_build\nrfx_clock.o</file>
+            <file>$PROJ_DIR$\_build\app_error_weak.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_atfifo.xcl</file>
+            <file>$PROJ_DIR$\_build\nrfx_uart.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_atfifo.o</file>
+            <file>$PROJ_DIR$\_build\Nymble_Msg.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_balloc.o</file>
+            <file>$PROJ_DIR$\_build\nrfx_uarte.o</file>
+            <file>$PROJ_DIR$\_build\nrfx_prs.xcl</file>
+            <file>$PROJ_DIR$\_build\app_error.o</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf.xcl</file>
+            <file>$PROJ_DIR$\_build\nrfx_uart.o</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_uart.xcl</file>
+            <file>$PROJ_DIR$\_build\app_uart_fifo.o</file>
+            <file>$PROJ_DIR$\_build\nrf_memobj.o</file>
+            <file>$PROJ_DIR$\_build\app_uart_fifo.xcl</file>
+            <file>$PROJ_DIR$\_build\drv_rtc.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_section_iter.xcl</file>
+            <file>$PROJ_DIR$\_build\nrfx_prs.o</file>
+            <file>$PROJ_DIR$\_build\nrf_log_frontend.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_sortlist.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrfx_uarte.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_Crc8.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrfx_atomic.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_eeprom.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_Power.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\main.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrfx_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\drv_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_util_platform.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_error_handler_iar.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_fifo.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_atfifo.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_atomic.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_Uart.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_Sm.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_error.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_timer2.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\Nymble_Msg.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrfx_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\system_nrf52.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrfx_prs.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_error_weak.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\app_uart_fifo.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_balloc.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_drv_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf_format.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_memobj.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_pwr_mgmt.__cstat.et</file>
+            <file>$PROJ_DIR$\_build\nrf_section_iter.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error_weak.c</file>
+            <file>$PROJ_DIR$\..\..\application\power\Nymble_Power.h</file>
+            <file>$PROJ_DIR$\..\..\application\msg\Nymble_Msg.h</file>
+            <file>$PROJ_DIR$\..\..\application\uart\Nymble_Uart.h</file>
+            <file>$PROJ_DIR$\..\..\config\application_config.h</file>
+            <file>$PROJ_DIR$\..\..\config\sdk_config.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\iar_startup_nrf52.s</file>
+            <file>$PROJ_DIR$\..\..\application\eeprom\Nymble_Eeprom.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\system_nrf52.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_clock.c</file>
+            <file>$PROJ_DIR$\..\..\application\crc8\Nymble_Crc8.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\prs\nrfx_prs.c</file>
+            <file>$PROJ_DIR$\..\..\application\uart\Nymble_Uart.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_uart.c</file>
+            <file>$PROJ_DIR$\..\..\application\power\Nymble_Power.c</file>
+            <file>$PROJ_DIR$\..\..\application\crc8\Nymble_Crc8.h</file>
+            <file>$PROJ_DIR$\..\..\application\main.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_uarte.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error_handler_iar.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\fifo\app_fifo.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_uart.c</file>
+            <file>$PROJ_DIR$\..\..\application\msg\Nymble_Msg.c</file>
+            <file>$PROJ_DIR$\..\..\application\statemachine\Nymble_Sm.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_atomic.c</file>
+            <file>$PROJ_DIR$\..\..\application\statemachine\Nymble_Sm.c</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_clock.c</file>
+            <file>$PROJ_DIR$\..\..\application\eeprom\Nymble_eeprom.c</file>
+            <file>$PROJ_DIR$\NymbleTest.icf</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf52_name_change.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf52_bitfields.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\system_nrf52.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error_weak.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_uart.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\ringbuf\nrf_ringbuf.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\uart\app_uart.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\nordic_common.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_uart.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\nrf_assert.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf51_to_nrf52.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\experimental_section_vars\nrf_section_iter.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\include\nrfx_uart.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\nrfx_glue.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\system_nrf.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_irqs.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf52832_peripherals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\nrf_peripherals.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\log\nrf_log_str_formatter.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\sdk_errors.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\include\nrfx_uarte.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\nrfx.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_irqs_nrf52832.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_uarte.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\toolchain\cmsis\include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\softdevice\s132\headers\nrf_error.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\hal\nrf_gpio.h</file>
+            <file>$PROJ_DIR$\_build\Nymble_eeprom.o</file>
+            <file>$PROJ_DIR$\_build\app_error_handler_iar.o</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\nrfx_errors.h</file>
+            <file>$PROJ_DIR$\_build\nrfx_atomic.o</file>
+            <file>$PROJ_DIR$\_build\app_fifo.o</file>
+            <file>$PROJ_DIR$\_build\app_util_platform.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_atomic.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_fprintf.o</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\sdk_resources.h</file>
+            <file>$PROJ_DIR$\_build\Nymble_Crc8.o</file>
+            <file>$PROJ_DIR$\_build\NymbleTest.hex</file>
+            <file>$PROJ_DIR$\_build\NymbleTest.pbd</file>
+            <file>$PROJ_DIR$\_build\main.xcl</file>
+            <file>$PROJ_DIR$\_build\Nymble_eeprom.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\_build\Nymble_Power.xcl</file>
+            <file>$PROJ_DIR$\_build\nrfx_atomic.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_balloc.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\nrfx_config.h</file>
+            <file>$PROJ_DIR$\_build\nrfx_clock.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_util.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\apply_old_config.h</file>
+            <file>$PROJ_DIR$\_build\Nymble_Crc8.xcl</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\nrfx_common.h</file>
+            <file>$PROJ_DIR$\_build\app_error.xcl</file>
+            <file>$PROJ_DIR$\_build\Nymble_Power.o</file>
+            <file>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_coredep.h</file>
+            <file>$PROJ_DIR$\_build\nrf_pwr_mgmt.xcl</file>
+            <file>$PROJ_DIR$\_build\nrf_atomic.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 66 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\atomic_fifo\nrf_atfifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 46 50 38 56 53 212 19 34 186 236 202 39 192 44 57 41 33 35 48 51 210 185 199 184 195 183 42 159 194 205 213 14 4 11 3 9 30 8 18 26 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf_format.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 43 55 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\experimental_section_vars\nrf_section_iter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 196 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 17 196 4 15 6 7 207 234 240 203 201 198 238 200 208 47 211 188 187 243 217 224 218 23 11 21 5 22 28 20 12 14 9 26 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\_build\NymbleTest.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 182 111 216 92 220 90 115 60 86 101 79 106 245 108 89 96 223 62 63 116 67 99 83 219 102 120 113 109 225 215 100 242 91 94 74 230 237 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_util_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 34 46 50 38 56 53 39 44 57 41 33 35 48 51 210 185 199 184 195 183 194 211 188 212 186 205 213 192 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\balloc\nrf_balloc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 4 12 47 211 188 187 14 11 9 26 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\external\fprintf\nrf_fprintf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 43 36 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\sortlist\nrf_sortlist.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 49 9 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\log\src\nrf_log_frontend.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 47 211 188 187 9 4 26 10 14 11 23 21 5 22 28 20 12 204 55 190 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\uart\app_uart_fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 191 47 211 188 187 40 28 20 189 207 234 240 203 201 198 238 200 208 243 217 224 218 206 209 197 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\atomic\nrf_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\timer\drv_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 2 13 31 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\memobj\nrf_memobj.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 34 46 50 38 56 53 28 212 20 205 213 12 159 47 39 44 57 41 33 35 48 51 210 185 199 184 195 183 194 211 188 186 192 187 236 202 14 4 11 6 30 16 19 8 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\timer\app_timer2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 159 211 34 46 50 38 56 53 188 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 205 213 192 187 236 202 14 4 11 49 42 194 2 207 234 240 203 201 198 238 200 208 47 243 217 224 218 9 30 16 19 8 18 26 10 13 31</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error_weak.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211 34 46 50 38 56 53 188 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 205 213 192 187 9 30 16 19 159 8 236 202 18 194 4 26 10 14 11 23 21 5 22 28 20 12 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\iar_startup_nrf52.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\mdk\system_nrf52.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 46 50 38 56 53 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192 45 52 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 47 211 188 205 213 187 243 217 224 218 29 37 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\crc8\Nymble_Crc8.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169 34 46 50 38 56 53 202 212 186 158 161 28 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\prs\nrfx_prs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 27 24 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\uart\Nymble_Uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 46 50 38 56 53 192 191 186 47 39 44 57 41 33 35 48 51 210 185 199 184 195 183 194 211 188 212 205 213 187 158 177 161 157 155 169 202 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 197 193 27 214 24 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\power\Nymble_Power.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155 17 186 34 46 50 38 56 53 205 213 196 202 212 4 192 194 44 57 41 33 35 48 51 210 185 199 184 195 183 39 236 191 47 211 188 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177 186 34 46 50 38 56 53 161 158 157 155 169 202 212 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_uarte.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 206 209 27 214 24 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 57 41 34 46 50 38 56 53 33 35 48 51 210 185 199 184 195 183 39 188 212 211 186 205 213 192 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\util\app_error_handler_iar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 211 188 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\components\libraries\fifo\app_fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 34 46 50 38 56 53 186 16 212 19 159 192 39 8 205 213 236 202 44 57 41 33 35 48 51 210 185 199 184 195 183 18 194 40 28 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\integration\nrfx\legacy\nrf_drv_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 206 209 197 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\msg\Nymble_Msg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156 186 34 46 50 38 56 53 44 57 41 33 35 48 51 210 185 199 184 195 183 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\soc\nrfx_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 224 218 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\statemachine\Nymble_Sm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177 186 34 46 50 38 56 53 161 158 157 155 169 202 212 156 54 159 211 188 44 57 41 33 35 48 51 210 185 199 184 195 183 39 205 213 192 187 236 14 4 11 49 45 52 207 234 240 203 201 198 238 200 208 194 47 243 217 224 218 29 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\sdk\modules\nrfx\drivers\src\nrfx_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 235</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 234 159 240 34 46 50 38 56 53 202 212 186 44 57 41 33 35 48 51 210 185 199 184 195 183 39 203 201 198 238 200 208 194 236 192 47 211 188 205 213 187 243 217 224 218 52 29 37 24 9 30 16 19 8 18 4 26 10 14 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\application\eeprom\Nymble_eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 46 50 38 56 53 212 161 34 186 158 156 44 57 41 33 35 48 51 210 185 199 184 195 183 39 16 19</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

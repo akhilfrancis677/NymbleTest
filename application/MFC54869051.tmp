@@ -1,0 +1,81 @@
+/**
+* The script is largely based on the ble_app_uart_c example
+**/
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include "nordic_common.h"
+#include "app_uart.h"
+#include "nrf_pwr_mgmt.h"
+#include "eeprom.h"
+#include "Nymble_Uart.h"
+
+Queue_Node_t Queue_Head;
+static volatile int32_t Queue_Size = EMPTY;     /* Set Queue_Size as Empty before the Queue creation*/
+static void process_node(void);
+volatile bool RecievedEndOfString = false;
+char UART_TERMINATOR[2] = {0x0D, 0x0A};       /* Corresponds to " */        
+
+static void uart_send(uint8_t  resp_msg)
+{
+  ret_code_t ret_val;
+  do
+  {
+    ret_val = app_uart_put(resp_msg);
+    if ((ret_val != NRF_SUCCESS) && (ret_val != NRF_ERROR_BUSY))
+    {
+      APP_ERROR_CHECK(ret_val);
+    }
+  } while (ret_val == NRF_ERROR_BUSY);
+}
+
+
+static void power_management_init(void)
+{
+  ret_code_t err_code;
+  err_code = nrf_pwr_mgmt_init();
+  APP_ERROR_CHECK(err_code);
+}
+
+static void idle_state_handle(void)
+{
+  nrf_pwr_mgmt_run();
+}
+
+/*Below Function will try to send the DUT response to PyOwl, through the UART if is there any data in the Queue.
+Also will try to send the data from the head of the Queue to the tail, and once it sends through UART particular node will be get deleted.*/
+static void process_node(void)
+{
+  if(IsEndOfStringReceived())
+  {
+    int32_t count = 0;
+    Queue_Node_t *QueueHead;
+
+    while(count<=GetQueueLength())
+    {
+      if (Queue_Head.QueueCells[count].uart_status)
+      {
+        uart_send(Queue_Head.QueueCells[count].data); 
+        Queue_Head.QueueCells[count].uart_status = false;
+      }
+      count++;
+    }
+    Queue_Size = EMPTY;
+  }
+}
+
+int main(void)
+{
+  uart_init();
+  power_management_init();
+  for (;;)
+  {
+    if (Queue_Size != EMPTY){
+      process_node();
+    } 
+    else 
+    {
+      idle_state_handle();
+    }
+  }
+}

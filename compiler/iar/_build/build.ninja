@@ -1,0 +1,65 @@
+#Generating source browse information for project NymbleTest
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build Nymble_Crc8.pbi : index Nymble_Crc8.xcl
+build Nymble_eeprom.pbi : index Nymble_eeprom.xcl
+build Nymble_Msg.pbi : index Nymble_Msg.xcl
+build Nymble_Power.pbi : index Nymble_Power.xcl
+build Nymble_Sm.pbi : index Nymble_Sm.xcl
+build Nymble_Uart.pbi : index Nymble_Uart.xcl
+build main.pbi : index main.xcl
+build system_nrf52.pbi : index system_nrf52.xcl
+build nrf_drv_clock.pbi : index nrf_drv_clock.xcl
+build nrf_drv_uart.pbi : index nrf_drv_uart.xcl
+build nrfx_atomic.pbi : index nrfx_atomic.xcl
+build nrfx_clock.pbi : index nrfx_clock.xcl
+build nrfx_prs.pbi : index nrfx_prs.xcl
+build nrfx_uart.pbi : index nrfx_uart.xcl
+build nrfx_uarte.pbi : index nrfx_uarte.xcl
+build app_error.pbi : index app_error.xcl
+build app_error_handler_iar.pbi : index app_error_handler_iar.xcl
+build app_error_weak.pbi : index app_error_weak.xcl
+build app_fifo.pbi : index app_fifo.xcl
+build app_timer2.pbi : index app_timer2.xcl
+build app_uart_fifo.pbi : index app_uart_fifo.xcl
+build app_util_platform.pbi : index app_util_platform.xcl
+build drv_rtc.pbi : index drv_rtc.xcl
+build nrf_atfifo.pbi : index nrf_atfifo.xcl
+build nrf_atomic.pbi : index nrf_atomic.xcl
+build nrf_balloc.pbi : index nrf_balloc.xcl
+build nrf_fprintf.pbi : index nrf_fprintf.xcl
+build nrf_fprintf_format.pbi : index nrf_fprintf_format.xcl
+build nrf_memobj.pbi : index nrf_memobj.xcl
+build nrf_pwr_mgmt.pbi : index nrf_pwr_mgmt.xcl
+build nrf_section_iter.pbi : index nrf_section_iter.xcl
+build nrf_sortlist.pbi : index nrf_sortlist.xcl
+build nrf_log_frontend.pbi : index nrf_log_frontend.xcl
+build NymbleTest_part0.pbi : link Nymble_Crc8.pbi Nymble_eeprom.pbi Nymble_Msg.pbi Nymble_Power.pbi Nymble_Sm.pbi Nymble_Uart.pbi
+build NymbleTest_part1.pbi : link main.pbi system_nrf52.pbi nrf_drv_clock.pbi nrf_drv_uart.pbi nrfx_atomic.pbi nrfx_clock.pbi
+build NymbleTest_part2.pbi : link nrfx_prs.pbi nrfx_uart.pbi nrfx_uarte.pbi app_error.pbi app_error_handler_iar.pbi app_error_weak.pbi
+build NymbleTest_part3.pbi : link app_fifo.pbi app_timer2.pbi app_uart_fifo.pbi app_util_platform.pbi drv_rtc.pbi nrf_atfifo.pbi
+build NymbleTest_part4.pbi : link nrf_atomic.pbi nrf_balloc.pbi nrf_fprintf.pbi nrf_fprintf_format.pbi nrf_memobj.pbi nrf_pwr_mgmt.pbi
+build NymbleTest_part5.pbi : link nrf_section_iter.pbi nrf_sortlist.pbi nrf_log_frontend.pbi
+build NymbleTest.pbd : link NymbleTest_part0.pbi NymbleTest_part1.pbi NymbleTest_part2.pbi NymbleTest_part3.pbi NymbleTest_part4.pbi NymbleTest_part5.pbi
+build NymbleTest.pbw : browsedata NymbleTest.pbd
+
+
